@@ -1,0 +1,149 @@
+#member_area {
+    background-color: rgba(239, 233, 231, 1.00);
+}
+
+.store_title {
+    margin: 0 auto;
+    color: rgba(120, 51, 0, 1.00);
+    font-weight: bold;
+}
+
+.store_title #brandname{
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgba(120, 51, 0, 1.00);
+    font-weight: bold;
+    margin: 0;
+}
+
+.store_title #slogan {
+    font-size: 18px;
+    color: rgba(120, 51, 0, 1.00);
+}
+
+#login_title {
+    font-size: 30px;
+    color: rgba(120, 51, 0, 1.00);
+    font-weight: bold;
+}
+
+.member_login {
+    width: 500px;
+    line-height: 50px;
+    min-height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    border-top: 3px solid rgba(222, 61, 59, 1.00);
+}
+
+
+#login_title, #email_label, #email, #password_label, #password,.login_button{
+    display: block;
+    margin: 0;
+    text-align: left;
+}
+
+#email, #password {
+    width: 70%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#password_alert {
+    height: auto;
+    display:block;
+    text-align-last: left;
+    color:rgba(222, 61, 59, 1.00);
+    font-weight: bold;
+}
+
+#submit_btn {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(226, 89, 73,1.00);
+    color:rgba(255, 255, 255, 1.00);
+    cursor: pointer;
+}
+
+#submit_btn:hover {
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.16);
+    background-color: rgba(226, 89, 73,0.85);
+}
+
+#cancel_btn {
+    width: 20%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(150, 145, 144,1.00);
+    color:rgba(255, 255, 255, 1.00);
+    cursor: pointer;
+}
+
+#cancel_btn:hover {
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.16);
+    background-color:rgba(150, 145, 144,0.85);
+}
+
+/* RWD */
+
+@media screen and (max-width: 768px) {
+
+    .member_login {
+        width: 100%;
+    }
+
+    #email, #password {
+        width: 80%;
+    }
+    
+    #submit_btn {
+        width: 45%;
+        height: 50px;
+        margin: 5px;
+        float: left;
+    }
+
+    #cancel_btn {
+        width: 45%;
+        height: 50px;
+        float: left;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .member_login {
+        width: 100%;
+        padding-right: 5px;
+    }
+
+    .store_title #brandname{
+        font-size: 20px;
+    }
+
+    .store_title #slogan {
+        font-size: 14px;
+    }
+
+    #email, #password {
+        width: 80%;
+    }
+
+    #submit_btn {
+        width: 45%;
+        height: 50px;
+        margin: 5px;
+        float: left;
+    }
+
+    #cancel_btn {
+        width: 45%;
+        height: 50px;
+        float: left;
+        margin: 5px;
+    }
+}
