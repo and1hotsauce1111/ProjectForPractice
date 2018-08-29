@@ -1,0 +1,5 @@
+secret.yml
+config/database.yml
+/db/*.sqlite3
+*.tmp
+._DS_Store
