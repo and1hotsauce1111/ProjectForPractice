@@ -1,0 +1,106 @@
+body {
+    background-image: url(images/01.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#panel {
+    width: 900px;
+    background-color: #eee;
+    margin: 100px auto 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: #777 0 5px 5px 0;
+}
+
+#panel>p {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#todo-list ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#todo-list li {
+    display:flex;
+    padding: 10px;
+}
+
+#todo-list li.complete .checkbox {
+    background-color: #777;
+}
+
+#todo-list li.complete .checked {
+    position: relative;
+    border-color: rgba(192, 0, 0, 1.00);
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+    float: left;
+}
+
+#todo-list li.complete .content {
+    text-decoration: line-through;
+}
+
+#todo-list li:hover {
+    background-color: #f8f8f8;
+}
+
+#todo-list .checkbox {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#todo-list .content {
+    flex:1;
+}
+
+
+#todo-list .actions > * {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+#todo-list input {
+    width: 90%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.addBtn {
+    width: 20%;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(192, 0, 0, 1.00);
+    font-size:20px;
+    text-align-last: center;
+    color:rgba(255,255,255,1);
+    margin-left: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 0;
+}
+
+.addBtn:hover {
+    cursor: pointer;
+    background-color: rgba(222, 61, 59, 1.00);
+    color:rgba(0,0,0,0.85);
+}
+
+.template {
+    display: none;
+}
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Test Reaction</title>
+</head>
+
+<style>
+
+    body {
+        font-family:'Roboto', sans-serif;
+        font-weight: bold;
+    }
+
+    #box {
+        width:200px;
+        height:200px;
+        background-color: red;
+        display: none;
+        position: relative;
+    }
+
+</style>
+
+<body>
+
+    <h1>How fast is your reaction??</h1>
+
+    <p>Your time is: <span id="time">0 s</span></p>
+    
+    <div id="box"></div>
+
+    <script type="text/javascript"> 
+
+        function getRandomColor() {
+
+            var letters = '0123456789ABCDEF'.split('');
+            var color = '#';
+
+            for(var i = 0; i < 6; i++) {
+
+                color += letters[Math.floor(Math.random()*16)];
+            }
+            return color;
+        }
+        
+        var createdTime, clickedTime, reactionTime, top, left, size;
+
+        function makeBox() {
+
+            var ranSec = Math.random();
+            ranSec *= 3000;
+
+            setTimeout(function() {
+
+                top = Math.random()*500;
+
+                left = Math.random()*800;
+
+                size = Math.floor(Math.random()*200 + 20);
+
+                 if(Math.random() < 0.5) {
+
+                        document.getElementById('box').style.borderRadius = size + 'px';
+                    } else {
+
+                        document.getElementById('box').style.borderRadius = '0';
+                }
+
+                document.getElementById('box').style.width = size+ 'px';
+
+                document.getElementById('box').style.height = size + 'px';
+
+                document.getElementById('box').style.top = top + 'px';
+
+                document.getElementById('box').style.left = left + 'px';
+
+                document.getElementById('box').style.backgroundColor = getRandomColor();
+
+                document.getElementById('box').style.display = 'block';
+
+                createdTime = Date.now();
+
+            }, ranSec);
+        }
+
+        document.getElementById('box').onclick = function() {
+
+            clickedTime = Date.now();
+
+            reactionTime = (clickedTime - createdTime) / 1000;
+
+            document.getElementById('time').innerHTML = reactionTime + ' s';
+
+            this.style.display = 'none';
+
+            makeBox();
+        };
+
+        makeBox();
+
+    </script>
+</body>
+</html>
