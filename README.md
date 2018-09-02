@@ -51,7 +51,8 @@
 <hr>
 
 * KingBUrger(RWD、JQuery) - 不倚賴 CSS Framework 進行 RWD 客製化
-  <br/><a href="https://and1hotsauce1111.github.io/ProjectForPractice/RWD%20Project/King%20Size%20Burger" target="_blank">Demo</a>
+  <br/>
+  <a href="https://and1hotsauce1111.github.io/ProjectForPractice/RWD%20Project/King%20Size%20Burger" target="_blank">Demo</a>
 
 <hr>
 
