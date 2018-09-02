@@ -15,7 +15,7 @@
  * Bootstrap4
  * WordPress架站
  * 基礎MVC知識
- * RWD 規劃網頁，不倚賴 CSS Framework 進行 RWD 客製化
+ * 不倚賴 CSS Framework 完成 RWD 規劃
  
 #### 後端 
 
@@ -24,7 +24,7 @@
 #### 其他
  * Git/GitHub 基本使用
  * Photoshop、Illustrator 基本工具操作
- * Muse、Dreamweaver
+ * Muse、Dreamweaver設計網站
  * Google Adwords證照
  * 基礎UI介面規劃
  
@@ -85,3 +85,4 @@
 
 ## 關於我
 
+對新事物有強烈的興趣和熱情，因為曾經工作的經歷，有機會接觸到網頁設計相關的知識。毅然決定轉換跑道，正朝向成為一名前端工程師前進中...
