@@ -48,26 +48,9 @@
 * 記帳本(JavaScript、使用MVC框架)- 實現簡易記帳本功能
 
   
-* KingBUrger(RWD、JQuery) - 
-  </br> 不倚賴 CSS Framework 進行 RWD 客製化
-  
-* Jquery - https://hotman0901.github.io/jqueryTest/
-  </br>1. 使用第三方套件製作套用燈箱與輪播效果
-  
-* 高雄旅遊資訊(JavaScript、Ajax、Bootstrap) -  https://hotman0901.github.io/travel/
-  </br>1. 使用 Bootstrap 進行格線規劃
-  </br>2. 使用 JavaScript 透過 Ajax 取得 Open Data 資料
-  
-* Vue - TodoList(Vue、Firebase) -  https://hotman0901.github.io/vue-todolist/
-  </br>1. 使用 Vue 結合 Firebase 製作簡易 TodoList
-
-* Vue - Shop -  https://hotman0901.github.io/shop-test/
-  </br>1. 使用 Vue 框架打造購物網
-  </br>2. 使用 Vue-Router、Vuex
-  </br>3. 使用 Firebase 做為 FaceBook 登入的橋接
-  </br>4. 購物資料透過 Firebase 的 DataBase 來儲存
-  </br>5. 使用 Bootstrap 進行格線規劃
-
+### RWD
+<hr>
+* KingBUrger(RWD、JQuery) - 不倚賴 CSS Framework 進行 RWD 客製化
 
 <hr>
 
