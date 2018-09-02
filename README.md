@@ -37,10 +37,16 @@
 <hr>
 
 * 測試反應遊戲(JavaScript) - 點擊頁面的出現的區塊，測試自己的反應速度
+  </br>
+  <a href="https://and1hotsauce1111.github.io/ProjectForPractice/Javascript%20Project/Javascript%20Game/Test%20Reaction/" target="_blank">Demo</a>
 
 * 擲骰子遊戲(JavaScript)- 支持兩位玩家遊戲，互擲骰子，累積點數多者獲勝
+  </br>
+  <a href="https://and1hotsauce1111.github.io/ProjectForPractice/Javascript%20Project/Javascript%20Game/Dice%20Game/" target="_blank">Demo</a>
 
 * JS BIN colone(Javascript)- 模擬JS BIN ， 實現線上簡易版的編譯器
+  </br>
+  <a href="https://and1hotsauce1111.github.io/ProjectForPractice/Javascript%20Project/JS%20bin%20colone/" target="_blank">Demo</a>
 
 * Todolist(jQuery)- 簡易的Todolist功能
   </br>
@@ -62,7 +68,8 @@
 ### PHP
 
 * 天氣預測 - 利用PHP實現動態各國天氣預測查詢
-
+  <br/>
+  <a href="http://phptest.web.youp.ga/" target="_blank">Demo</a>
 
 <hr>
 
