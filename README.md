@@ -38,15 +38,15 @@
 <hr>
 
 * 測試反應遊戲(JavaScript) - 點擊頁面的出現的區塊，測試自己的反應速度
-</br>
+
 * 擲骰子遊戲(JavaScript)- 支持兩位玩家遊戲，互擲骰子，累積點數多者獲勝
-</br>
+
 * JS BIN colone(Javascript)- 模擬JS BIN ， 實現線上簡易版的編譯器
-</br> 
+
 * Todolist(jQuery)- 簡易的Todolist功能
-</br>
+
 * 記帳本(JavaScript、使用MVC框架)- 實現簡易記帳本功能
-</br>
+
   
 * KingBUrger(RWD、JQuery) - 
   </br> 不倚賴 CSS Framework 進行 RWD 客製化
