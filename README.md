@@ -54,6 +54,8 @@
 
 
 * 記帳本(JavaScript、使用MVC框架)- 實現簡易記帳本功能
+  </br>
+  <a href="https://and1hotsauce1111.github.io/ProjectForPractice//Javascript%20Project/HowManyThingsYouBought_Static(MVC%20Model)/" target="_blank">Demo</a>
 
   
 ### RWD
