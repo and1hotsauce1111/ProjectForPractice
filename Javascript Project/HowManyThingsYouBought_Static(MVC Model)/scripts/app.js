@@ -148,7 +148,7 @@ var view = (function() {
             
             var element = DOMStrings.list;
             
-            var html = '<div class="item clearfix" id="%id%"><div class="item_name">%name%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="delete"><button class="delete_btn"><i class="ion-ios-close-outline"></i></button></div></div></div>';
+            var html = '<div class="item clearfix" id="%id%"><div class="item_name">%name%</div><div class="right clearfix"><div class="item_value">%value%</div><div class="delete"><button class="delete_btn"><i class="far fa-trash-alt"></i></button></div></div></div>';
             
             newHTML = html.replace('%id%', object.id);
             newHTML = newHTML.replace('%name%', object.name);
