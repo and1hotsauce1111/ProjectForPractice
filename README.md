@@ -6,9 +6,9 @@
 
 <hr>
 
-## 技能清單
+## Skill List
 
-#### 前端
+#### Front-end
 
  * HTML5、CSS3
  * Javascript、jQuery
@@ -17,11 +17,12 @@
  * 基礎MVC知識
  * 不倚賴 CSS Framework 完成 RWD 規劃
  
-#### 後端 
+#### Back-end 
 
  * PHP基礎語法
   
-#### 其他
+#### Others
+
  * Git/GitHub 基本使用
  * Photoshop、Illustrator 基本工具操作
  * Muse、Dreamweaver設計網站
@@ -30,7 +31,7 @@
  
 <hr>
 
-## 作品
+## Projects
 
 ### Javascript/jQuery
 
@@ -75,7 +76,8 @@
 
 <hr>
 
-## 未來計劃
+## Future Plans
+
  * 學習前端框架，React.js
  * 學習Sass
  * 學習Node.js、PHP
@@ -83,6 +85,6 @@
 
 <hr>
 
-## 關於我
+## About Me
 
 對新事物有強烈的興趣和熱情，因為曾經工作的經歷，有機會接觸到網頁設計相關的知識。毅然決定轉換跑道，正朝向成為一名前端工程師前進中...
